@@ -1,0 +1,13 @@
+.action{
+    height:35px;
+    width:180px;
+    color:var(--White);
+    border:none;
+    border-radius:25px;
+    background-color:var(--Blue);
+    cursor:pointer;
+    transition:0.5s;
+}
+.action:hover{
+    background-color:var(--Cyan);
+}

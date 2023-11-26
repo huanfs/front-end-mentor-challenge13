@@ -1,0 +1,9 @@
+nav ul{
+    display:flex;
+    gap:2em;
+    list-style-type:none;
+}
+nav ul a{
+    color:var(--White);
+    text-decoration:none;
+}

@@ -1,0 +1,23 @@
+.link{  
+    width:45%;
+    display:inline-flex;
+    align-items:center;
+    gap:0.5em;
+    text-decoration:none;
+    line-height:30px;
+    color:var(--Cyan);
+    border-bottom:2px solid var(--Cyan);
+    transition:0.5s;
+}
+a:hover{
+    color:var(--Blue);
+    border-bottom:2px solid var(--Blue);
+}
+@media screen and (max-width:405px){
+    .link{
+        width:280px;
+    }
+    .link img{
+        width:20px;
+    }
+}
